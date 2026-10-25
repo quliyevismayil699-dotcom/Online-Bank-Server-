@@ -3,9 +3,11 @@
 using namespace std;
 int main() {
     cout<<"Welcome to Online Bank Server"<<endl;
-    int x,i=0,value, newvalue=100;
+    int x,i=0;
+    double value;
     cout<<"please enter the primary value !"<<endl;
     cin>>value;
+    double newvalue=value;
     while (i==0) {
         cout<<"Please choose one : simple interest(1) or compound interest(2) or exit(3)"<<endl;
         cin>>x;
