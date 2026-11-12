@@ -1,3 +1,5 @@
+// The first column is AZN, the second amount is USD, the thrid amount is EUR. The program calculates the total amount in AZN.
+//
 #include <iostream>
 using namespace std;
 #include <vector>
